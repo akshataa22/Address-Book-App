@@ -1,0 +1,44 @@
+.tableHeader {
+    width: 98%; 
+    margin: 0 auto;
+}
+   
+.tableHeader th {
+    text-align: center; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    width:500px; 
+}
+   
+.tableHeader tr {
+    background-color:darkgrey;
+    width:200px;    
+}
+   
+.tableHeader th:first-child { 
+    border-top-left-radius: 5px;
+}
+   
+.tableHeader th:last-child { 
+    border-top-right-radius: 5px; 
+}
+
+.tableBody {
+    width: 98%; 
+    margin: 0 auto;  
+}
+
+.tableBody td {
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    width:190px;
+}
+
+
+.tableBody td:first-child { 
+    border-top-left-radius: 5px;
+ }
+
+.tableBody td:last-child { 
+    border-top-right-radius: 5px; 
+}
